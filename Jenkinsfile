@@ -8,7 +8,7 @@ def COVERAGE = 80
 def VARIANT = "DEFAULT"
 
 parallel (
-    "NPL":{
+    "A4H":{
         node {
         	def LABEL = "A4H"
         	def HOST = "vhcalnplci.dummy.nodomain"
